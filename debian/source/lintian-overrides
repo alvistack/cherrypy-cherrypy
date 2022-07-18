@@ -1,0 +1,4 @@
+python-cherrypy source: no-debian-changes
+python-cherrypy source: source-contains-prebuilt-windows-binary
+python-cherrypy source: source-is-missing
+python-cherrypy source: source-package-encodes-python-version
