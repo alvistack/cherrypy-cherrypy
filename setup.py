@@ -11,7 +11,7 @@ repo_url = 'https://github.com/{}'.format(repo_slug)
 
 params = dict(
     name=name,
-    use_scm_version=True,
+    version='18.7.0',
     description='Object-Oriented HTTP framework',
     author='CherryPy Team',
     author_email='team@cherrypy.dev',
@@ -104,9 +104,6 @@ params = dict(
             'pywin32 >= 227',
         ],
     },
-    setup_requires=[
-        'setuptools_scm',
-    ],
     python_requires='>=3.6',
 )
 
